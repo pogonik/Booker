@@ -1,0 +1,21 @@
+a {
+   opacity: 1;
+}
+.editBtn {
+   position: absolute;
+   top: 10px;
+   right: 15px;
+   display: block;
+}
+.editBtn span {
+   line-height: 3.6rem !important;
+}
+.printBtn {
+   position: absolute;
+   top: 10px;
+   left: 15px;
+   display: block;
+}
+.naslov {
+   margin-bottom: 30px;
+}

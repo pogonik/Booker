@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC:300,400,500,600,700|Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&subset=latin-ext');
+::-webkit-scrollbar {
+    width: 0 !important
+}
+
+html {
+    font-size: 62.5%;
+    background: #FFFFFF;
+    page-break-before: always !important;
+    page-break-inside: auto !important;
+    font-family: 'Cormorant', serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    color: #333;
+    height: 100vh;
+    background: #FFFFFF;
+    font-family: 'Cormorant', serif;
+    font-size: 14px;
+    overflow-y: hidden;
+    page-break-before: always !important;
+    page-break-inside: auto !important;
+}
+
+label {
+    font-family: 'Cormorant SC', serif;
+    margin-bottom: 0;
+}
+
+hr {
+    border: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Cormorant', serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: 'Cormorant', serif;
+    color: #444;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.home {
+    background: #FFF;
+}
+
+#loginForm {
+    background: rgba(255, 255, 255, 0.2);
+    color: #FFF;
+    min-height: 360px;
+    height: 420px;
+    margin: 100px auto;
+    padding: 40px;
+}
+
+#loginForm h1 {
+    color: #ccc;
+    text-align: center;
+}
+
+#root, #cont_wrapper, main#container, #wrapper, #wrapper .content {
+    background-color: #FFFFFF;
+    background: #FFFFFF;
+    page-break-before: always !important;
+    page-break-inside: auto !important;
+}
+
+#root, #root>div, #root, #root>div>div {
+    height: auto;
+    display: block;
+    overflow: auto;
+    page-break-before: always !important;
+    page-break-inside: auto !important;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: none !important;
+}
+
+a:hover {
+    opacity: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#root .root_panel {
+    height: auto;
+}
+
+aside#sidebar {
+    display: none;
+    visibility: hidden;
+}
+
+#cont_wrapper {
+    display: block;
+}
+
+#list {
+    display: none;
+    visibility: hidden;
+}
+
+main#container {
+    height: auto;
+    page-break-before: always !important;
+    page-break-inside: auto !important;
+}
+
+#list .top, main#container .top {
+    display: none;
+    visibility: hidden;
+}
+
+#list ul.lista {
+    margin: 0;
+    padding: 0 !important;
+    background: #FFF;
+}
+
+#list ul.lista>a>li {
+    border-bottom: 1px solid #ebf2f6;
+}
+
+#list ul.lista>a {
+    display: block;
+    opacity: 1;
+}
+
+#list ul.lista a.active, #list ul.lista a:hover, #list ul.lista a:focus {
+    background: #efefef;
+    text-decoration: none;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    height: 100%;
+    margin-left: 1px;
+    page-break-before: always !important;
+    page-break-inside: auto !important;
+}
+
+#wrapper .content {
+    padding: 20px;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    page-break-before: always !important;
+    page-break-inside: auto !important;
+}
+
+#wrapper.izvestaj .content {
+    max-width: 100%;
+    width: 100%;
+}
+
+#wrapper .content>div>div {
+    max-height: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    page-break-before: always !important;
+    page-break-inside: auto !important;
+}
+
+#wrapper h1 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#wrapper h1.naslov {
+    margin-bottom: 30px;
+}
+
+#print {
+   width: 720px;
+    padding: 40px 0;
+    font-family: 'Times New Roman', serif;
+}
+
+#print header {
+    margin-bottom: 40px;
+}
+#print p, #print #napomena p {
+   margin: 0 0 5px !important;
+}
+#print .naslov {
+   text-align: right;
+}
+#print .naslov h1 {
+   font-size: 42px;
+   color: #b4cad3 !important;
+   font-family: 'Cormorant', serif;
+   font-weight: normal;
+   margin: 0;
+   padding: 0;
+   line-height: 40px;
+   letter-spacing: 10px;
+   text-transform: uppercase;
+}
+#print.odobrenje .naslov h1 {
+   font-size: 28px;
+   color: #b4cad3 !important;
+   line-height: auto;
+   letter-spacing: normal;
+}
+#print header .adresa {
+    border-top: 2px solid #b4cad3;
+    margin-top: 10px;
+    /*margin-left: -15px;
+    margin-right: -15px;*/
+    padding: 10px 0 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Times New Roman', serif;
+}
+
+#print #podaci {
+   font-family: 'Times New Roman', serif;
+   min-height: 270px;
+}
+
+#print .napomena {
+   padding-top: 30px;
+    font-size: 12px;
+    font-family: 'Times New Roman', serif;
+}
+#print header table td {
+    vertical-align: middle;
+}
+table, tr, td,
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+   font-family: 'Times New Roman', serif;
+   vertical-align: middle;
+   border-color: #b4cad3 !important;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+   background-color: rgba(180,200,210,.2) !important;
+}
+#usluge .table, #usluge td {
+   font-family: 'Times New Roman', serif;
+   vertical-align: middle;
+   line-height: 16px;
+}
+
+#print table.racunData {
+   font-weight: bold;
+}
+#print table.racunData label {
+   font-weight: normal;
+}
+
+#print .left {
+   width: 50%;
+   float: left;
+}
+#print .right {
+   width: 50%;
+   float: right;
+   text-align: right;
+}
+#print #potpisi {
+   padding-top: 30px;
+}
+#print .potpis {
+   text-align: center;
+   border-top: 1px solid #333;
+   padding-top: 5px;
+   width: 200px;
+   font-size: 11px;
+   margin-top: 30px;
+}
+#print .right .potpis {
+   float: right;
+}
+
+#logo {
+   max-width: 400px;
+   max-height: 75px;
+}

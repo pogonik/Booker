@@ -1,0 +1,213 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i,900,900i|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Work+Sans:300,400,600,700,900&subset=latin-ext';
+
+::selection {
+   background:rgba(252,81,66, 0.99);
+   color:#ffffff;
+}
+:focus {
+   outline: 0;
+}
+html {
+   font-size: 62.5%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    color: #333;
+    height: 100vh;
+    background-color: #ebf2f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    overflow-y: hidden;
+}
+textarea {
+   font-family: 'Roboto', sans-serif;
+}
+hr { border:0; }
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Work Sans', sans-serif;*/
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.home {
+   background: #FFF;
+}
+#loginForm {
+   background: rgba(255, 255, 255, 0.2);
+   color: #FFF;
+   min-height: 360px;
+   height: 420px;
+   margin: 100px auto;
+   padding: 40px;
+}
+#loginForm h1 {
+   color: #ccc;
+   text-align: center;
+}
+#root, #root > div {
+   height: 100%;
+}
+
+/*p {
+  font-size: 24px;
+}*/
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fc4f3f;
+    opacity: .75;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#root .root_panel {
+   height: auto;
+}
+aside#sidebar {
+   min-width: 100px;
+   width: 100px;
+   height: 100%;
+   background: #2c2f37;
+}
+aside#sidebar #logo {
+   height: 70px;
+   padding: 20px 0 0;
+   text-align: center;
+   background: #fc4f3f;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   color: #FFF;
+   font-size: 1.2rem;
+   letter-spacing: 0.04rem;
+   text-shadow: 1px 1px 3px #666;
+}
+aside#sidebar nav a {
+   display: block;
+   height: 71px;
+   line-height: 71px;
+   padding:10px 3px 0 0;
+   color: #c0d0db;
+   border-left: 3px solid #2c2f37;
+   text-transform: uppercase;
+   font-family: 'Raleway', sans-serif;
+   font-size: 1rem;
+   letter-spacing: .04rem;
+   font-weight: 400;
+   /*text-shadow: 1px 1px 3px #111;*/
+   text-align: center;
+   position: relative;
+}
+aside#sidebar nav a.active,
+aside#sidebar nav a:hover,
+aside#sidebar nav a:focus {
+   background: #3b3d46;
+   color: #FFF;
+   border-left-color: #fc4f3f;
+   opacity: 1;
+   text-decoration: none;
+   outline: 0;
+}
+aside#sidebar nav a:after {
+   content: '';
+   border-bottom: 1px solid #42444f;
+   position: absolute;
+   bottom: 0;
+   right: 20px;
+   width: 60px;
+}
+
+#cont_wrapper {
+   display: flex;
+   flex-grow: 1;
+}
+
+#list {
+   min-width: 320px;
+   width: 320px;
+   height: 100%;
+}
+main#container {
+   height: 100%;
+   flex-grow: 1;
+}
+#list .top,
+main#container .top {
+   height: 70px;
+   line-height: 70px;
+   background: #202026;
+}
+
+#list ul.lista {
+   margin: 0;
+   padding: 0 !important;
+   background: #FFF;
+}
+#list ul.lista > a > li {
+   border-bottom: 1px solid #ebf2f6;
+}
+#list ul.lista > a {
+   display: block;
+   opacity: 1;
+}
+#list ul.lista a.active,
+#list ul.lista a:hover,
+#list ul.lista a:focus {
+   background: #efefef;
+   text-decoration: none;
+}
+
+#wrapper {
+   display: flex;
+   flex-direction: column;
+   background: #FFF;
+   height: 100%;
+   margin-left: 1px;
+}
+
+#wrapper .content {
+   padding: 20px;
+   height: 100%;
+   max-width: 890px;
+   position: relative;
+}
+#wrapper.izvestaj .content {
+   max-width: 1170px;
+}
+
+#wrapper h1 {
+   margin: 10px 0;
+   text-align: center;
+}
+#wrapper h1.naslov {
+   margin-bottom: 30px;
+}
+
+#izvestaj .table tr:last-child {
+   font-weight: bold;
+}

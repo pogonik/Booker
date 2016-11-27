@@ -1,0 +1,201 @@
+input {
+   font-family: 'Roboto';
+   line-height: normal;
+}
+.clear { clear: both}
+.root_panel {
+    flex-flow: column;
+    flex-direction: row !important;
+}
+.top_search {
+   color: #7e7f84;
+   margin: 0 1.6rem;
+   border: 0;
+   background: #202026;
+   display: block;
+   padding: 2rem 0 0;
+
+   ::-webkit-input-placeholder { color: #67686d; }
+   :-moz-placeholder { color: #67686d; }
+   ::-moz-placeholder { color: #67686d; }
+   :-ms-input-placeholder { color: #67686d; }
+
+   input {
+      color: #7e7f84 !important;
+      font-size: 1.35rem !important;
+      font-family: 'Roboto', sans-serif;
+      line-height: normal;
+   }
+}
+
+.topBar {
+   text-align: right;
+   padding-right: 20px;
+   .topBtn {
+      color: #888;
+      line-height: 3.2rem;
+   }
+   .topBtn:hover {
+      color: #FFF;
+   }
+}
+
+.autocomplete {
+   margin-right: 70px;
+}
+.suggestions {
+   padding: 0;
+}
+
+.fakturaForm {
+}
+.saveBtnWrapper {
+   text-align: center;
+   margin-bottom: 40px;
+   .saveBtn {
+      min-width: 26rem;
+      min-height: 5rem;
+      font-size: 1.6rem;
+   }
+   .googleBtn {
+      background: #336eb9;
+      min-height: 5rem;
+      font-size: 1.6rem;
+      min-width: 26rem;
+      color: #FFF;
+   }
+}
+.newClientDialogBtn {
+   position: absolute;
+   right: 15px;
+   top: 30px;
+   span {
+      line-height: 3.6rem !important;
+   }
+}
+
+.datePickerFaktura {
+   float: left;
+   margin-right: 50px;
+}
+
+.datePickerFaktura2 {
+   float: left;
+}
+.klijentDialog {
+   h6 {
+      margin-top: 0;
+      font-size: 2.6rem;
+      font-weight: 300;
+      color: #FFF;
+      background: #fc5142;
+      padding: 0 2.4rem;
+      font-family: 'Raleway', sans-serif;
+      line-height: 80px;
+      height: 80px;
+   }
+   section {
+      padding: 0;
+   }
+   form {
+      padding: 0 2.4rem;
+   }
+}
+.removeDialog {
+   h6 {
+      font-size: 2rem;
+      line-height: 60px;
+      height: 60px;
+   }
+   section {
+      div {
+         padding: 20px;
+         text-align: center;
+      }
+   }
+}
+
+.uslugeWrapper {
+   position: relative;
+   padding-right: 70px;
+   margin: 40px 0;
+}
+.uslugeTabela {
+   width: 100%;
+   font-size: 1.4rem;
+   text-align: left;
+   vertical-align: middle;
+   border-collapse: collapse;
+   thead th {
+      color: #999;
+   }
+   tbody tr {
+      border-top: 1px solid #CCC;
+   }
+   th, td {
+      height: 50px;
+   }
+   td:nth-child(2) {
+      width:50%;
+   }
+   textarea {
+      border: 0;
+      box-shadow: none;
+      font-size: 1.4rem;
+      font-family: 'Roboto', sans-serif;
+      width: 95%;
+      margin: 0;
+      padding: 0;
+   }
+   input {
+      font-size: 1.3rem;
+      font-family: 'Roboto', sans-serif;
+   }
+   .pdv {
+      line-height: 30px;
+      width: 25px;
+      display: inline-block;
+      text-align: center;
+      span {
+         color: #444;
+      }
+   }
+}
+.autocompleteMesto {
+   padding: 0;
+}
+.subtotalTabela {
+   margin-top: 40px;
+}
+
+.asideNav {
+   .fontIcon {
+      display: block;
+      font-size: 3.2rem;
+   }
+   .text {
+      display: block;
+      font-size: 1rem;
+      line-height: 1rem;
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+   }
+   .icon {
+      display: block;
+      height: 30px;
+      margin: 0 auto;
+      fill: #c0d0db;
+      // filter: drop-shadow(1px 1px 3px #111);
+   }
+   .icon:hover {
+      fill: #FFF;
+   }
+}
+
+.naslovInput {
+   text-align: right;
+   border: 0;
+   box-shadow: none;
+   width: 75px;
+}

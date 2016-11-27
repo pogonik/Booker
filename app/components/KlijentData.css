@@ -1,0 +1,16 @@
+a {
+   opacity: 1;
+}
+.editBtn {
+   position: absolute;
+   top: 30px;
+   right: 15px;
+   display: block;
+}
+.editBtn span {
+   line-height: 3.6rem !important;
+}
+
+.naslov {
+   margin-bottom: 30px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Booker</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/table.css" rel="stylesheet" />
+    <script>
+        if (!process.env.HOT) {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = '../dist/style.css';
+            document.write(link.outerHTML);
+        }
+    </script>
+    <link media="print" href="print.global.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="root"></div>
+    <script>
+        {
+            const script = document.createElement('script');
+            const port = process.env.PORT || 3000;
+            script.src = (process.env.HOT) ? `http://localhost:${port}/dist/bundle.js` : '../dist/bundle.js';
+            script.setAttribute('async', true);
+            document.write(script.outerHTML);
+        }
+    </script>
+</body>
+
+</html>
